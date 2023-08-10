@@ -1,0 +1,119 @@
+/* Apply some basic styling to the body */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some spacing to elements */
+.spacing {
+    margin: 10px;
+}
+
+/* Apply Material elevation shadow */
+.shadow {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style input fields */
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+/* Style containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headers */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #0056b3;
+}
+
+/* Style result items */
+.result-item {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Style keyword */
+.keyword {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style result status */
+.result-status {
+    font-weight: bold;
+}
+
+/* Apply Material elevation shadow to cards */
+.card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Apply Material elevation shadow to buttons */
+.button.card-button {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Apply Material elevation shadow to input fields */
+.input-field.card-input {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Apply Material elevation shadow to containers */
+.container.card-container {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Apply Material elevation shadow to result items */
+.result-item.card-result {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
